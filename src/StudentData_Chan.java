@@ -2,9 +2,9 @@ import java.util.ArrayList;
 import java.util.LinkedList;
 
 public class StudentData_Chan {
-    private String id, fname, lname, snumber, bday, pnumber, address;
-    private SinglyLinkedList_Chan gradelist;
-    public StudentData_Chan(String id,String lname,String fname,String snumber,String bday,String pnumber,String address){
+    public String id, fname, lname, snumber, bday, pnumber, address;
+    public SinglyLinkedList_Chan gradelist = new SinglyLinkedList_Chan();
+    public StudentData_Chan(String id,String lname,String fname,String snumber,String bday,String pnumber,String address, SinglyLinkedList_Chan gradelist){
         this.id = id;
         this.lname = lname;
         this.fname = fname;
@@ -12,6 +12,7 @@ public class StudentData_Chan {
         this.bday = bday;
         this.pnumber = pnumber;
         this.address = address;
+        this.gradelist = gradelist;
     }
     public StudentData_Chan(){
 
@@ -37,6 +38,27 @@ public class StudentData_Chan {
     public String getAddress(){
         return address;
     }
+    public void setId(String id) {
+        this.id = id;
+    }
+    public void setLname(String lname) {
+        this.lname = lname;
+    }
+    public void setFname(String fname) {
+        this.fname = fname;
+    }
+    public void setSnumber(String snumber) {
+        this.snumber = snumber;
+    }
+    public void setBday(String bday) {
+        this.bday = bday;
+    }
+    public void setPnumber(String pnumber) {
+        this.pnumber = pnumber;
+    }
+    public void setAddress(String address) {
+        this.address = address;
+    }
     public void setGradelist(StudentGradeData newData){
         gradelist.insert(newData);
     }
@@ -53,7 +75,7 @@ public class StudentData_Chan {
         return (id.compareTo(targetKey));
     }
     public StudentData_Chan deepCopy(){
-        StudentData_Chan clone = new StudentData_Chan(id, lname, fname, snumber, bday, pnumber, address);
+        StudentData_Chan clone = new StudentData_Chan(id, lname, fname, snumber, bday, pnumber, address, gradelist);
         return clone;
     }
     public String toString() {
@@ -70,9 +92,10 @@ public class StudentData_Chan {
         return str;
     }
     public String fileStringGrade(){
+        String str ="";
         while(!gradelist.isEmpty()){
         StudentGradeData fetchData = gradelist.fetch(getId());
-        String str = fetchData.getClassc()+","+fetchData.getGrade();
+        str += fetchData.getClassc()+","+fetchData.getGrade();
         }
         return str;
     }

@@ -19,7 +19,7 @@ public class SinglyLinkedList_Chan {
     }
     public StudentGradeData fetch(String targetKey)
     { Node p = h.next;//assign p to last node added
-        while(p != null && !(targetKey.equals(p.l.getID()))) //while p doesn't reach to the end of the linkedList && targetkey doesn't equal to data p
+        while(p != null && !(targetKey.equals(p.l.getId()))) //while p doesn't reach to the end of the linkedList && targetkey doesn't equal to data p
         { p = p.next;//jump to the next
         }
         if(p != null)//check if key is found, return deep copy of it
@@ -48,14 +48,14 @@ public class SinglyLinkedList_Chan {
         return false;//out of memory
         return true;//operation success
     }
-    public String showAll() {
-        String str = "";
+    public void showAll() {
+        String str;
         Node p = h.next;//set p to the last node added
         while (p != null) {//while not the end of the LinkedList
             str=p.l.toString();//display the node
             p = p.next;//jump to the next node
+            System.out.println(str);
         }
-        return str;
     }
     public boolean isEmpty(){
         return h.next == null;//checking if we have anything in next, if true - it's empty :)

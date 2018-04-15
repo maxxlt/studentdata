@@ -1,8 +1,17 @@
-class StudentGradeData {
-    private String classc, grade;
+class StudentGradeData{
+    private String classc, grade, id;
     public StudentGradeData(String classc, String grade){
         this.classc = classc;
         this.grade = grade;
+    }
+    public StudentGradeData(){
+
+    }
+    public void setId(String id) {
+        this.id = id;
+    }
+    public String getId() {
+        return id;
     }
     public void setGrade(String newGrade){
         grade = newGrade;
@@ -21,7 +30,7 @@ class StudentGradeData {
         return clone;
     }
     public String toString(){
-        String str = getClassc() +" "+ getGrade() +"\n";
+        String str = getClassc() +" - "+ getGrade() +"\n";
         return str;
     }
 }
