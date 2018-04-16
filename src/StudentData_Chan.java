@@ -1,5 +1,5 @@
-import java.util.ArrayList;
-import java.util.LinkedList;
+import java.text.SimpleDateFormat;
+import java.util.Date;
 
 public class StudentData_Chan {
     public String id, fname, lname, snumber, bday, pnumber, address;
@@ -59,18 +59,6 @@ public class StudentData_Chan {
     public void setAddress(String address) {
         this.address = address;
     }
-    public void setGradelist(StudentGradeData newData){
-        gradelist.insert(newData);
-    }
-    public void updateGrade(StudentGradeData newData){
-        gradelist.update(getId(), newData);
-    }
-    public void deleteGrade(){
-        //NEEDS EDIT
-    }
-    public void showClasses(){
-        //NEEDS EDIT
-    }
     public int compareTo(String targetKey){
         return (id.compareTo(targetKey));
     }
@@ -79,12 +67,22 @@ public class StudentData_Chan {
         return clone;
     }
     public String toString() {
-        String str = String.format("%-25s %10s", "Student:", getFname() + " "+getLname()+ "\n");
-        str += String.format("%-25s %10s", "Student ID:", getId() + "\n");
-        str += String.format("%-25s %10s", "SS Number:", getSnumber() + "\n");
-        str += String.format("%-25s %10s", "Birthday:", getBday() + "\n");
-        str += String.format("%-25s %10s", "Phone:", getPnumber() + "\n");
-        str += String.format("%-25s %10s", "Address:", getAddress() + "\n");
+        String str = String.format("%-12s %40s", "Student:", getFname() + " "+getLname()+ "\n");
+        str += String.format("%-12s %40s", "Student ID:", getId() + "\n");
+        str += String.format("%-12s %40s", "SS Number:", getSnumber() + "\n");
+        str += String.format("%-12s %40s", "Birthday:", getBday() + "\n");
+        str += String.format("%-12s %40s", "Phone:", getPnumber() + "\n");
+        str += String.format("%-12s %40s", "Address:", getAddress() + "\n");
+        return str;
+    }
+    public String transctriptPrint(){
+        SimpleDateFormat dateFormat = new SimpleDateFormat( "MM/dd/yyyy" );
+        Date dateObj = new Date();
+        String str = "---------------------------------------- \n";
+        str += String.format("%-15s %25s", "Student:", getFname() + " "+getLname()+ "\n");
+        str += String.format("%-15s %25s", "Student ID:", getId() + "\n");
+        str += String.format("%-15s %25s", "Date:", dateFormat.format(dateObj) + "\n");
+        str +=  "---------------------------------------- \n";
         return str;
     }
     public String fileStringMain(){

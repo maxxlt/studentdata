@@ -1,10 +1,11 @@
 public class SinglyLinkedList_Chan {
     private Node h;
-    public SinglyLinkedList_Chan()
-    { h = new Node();//dummy node
-
-        h.l = null; //setting out data type object inside h to null
-        h.next = null; //set next of h to null - the end of linkedList
+    public Iterator i;
+    public SinglyLinkedList_Chan(){
+        h = new Node();
+        i = new Iterator();
+        h.l = null;
+        h.next = null;
     }
     public boolean insert(StudentGradeData newListing)
     { Node n = new Node();
@@ -19,7 +20,7 @@ public class SinglyLinkedList_Chan {
     }
     public StudentGradeData fetch(String targetKey)
     { Node p = h.next;//assign p to last node added
-        while(p != null && !(targetKey.equals(p.l.getId()))) //while p doesn't reach to the end of the linkedList && targetkey doesn't equal to data p
+        while(p != null && !(targetKey.equals(p.l.getClassc()))) //while p doesn't reach to the end of the linkedList && targetkey doesn't equal to data p
         { p = p.next;//jump to the next
         }
         if(p != null)//check if key is found, return deep copy of it
@@ -30,7 +31,7 @@ public class SinglyLinkedList_Chan {
     public boolean delete(String targetKey)
     { Node q = h;//assign q to dumb Node h
         Node p = h.next;//assign p to last node added
-        while(p != null && !(targetKey.equals(p.l.getId())))
+        while(p != null && !(targetKey.equals(p.l.getClassc())))
         { q = p;
             p = p.next;
         }
@@ -49,20 +50,39 @@ public class SinglyLinkedList_Chan {
         return true;//operation success
     }
     public void showAll() {
-        String str;
         Node p = h.next;//set p to the last node added
         while (p != null) {//while not the end of the LinkedList
-            str=p.l.toString();//display the node
+            System.out.println(p.l.toString());//display the node
             p = p.next;//jump to the next node
-            System.out.println(str);
         }
     }
     public boolean isEmpty(){
         return h.next == null;//checking if we have anything in next, if true - it's empty :)
     }
-    public class Node
-        { private StudentGradeData l; //our data parameter
-            private Node next; //reference the next node called "next"
-            public Node(){}
+    public class Node{
+        private StudentGradeData l;
+        private Node next;
+        public Node(){}
+    }
+    public class Iterator{
+        private Node ip;
+        public Iterator(){
+            ip = h;
         }
+        public void reset(){
+            ip = h;
+        }
+        public boolean hasNext(){
+            if(ip.next != null)
+                return true;
+            else return false;
+        }
+        public StudentGradeData next(){
+            ip = ip.next;
+            return ip.l.deepCopy();
+        }
+        public void set(StudentGradeData newListing){
+            ip.l = newListing.deepCopy();
+        }
+    }
 }

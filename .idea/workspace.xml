@@ -2,14 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b358f5f4-0579-4f00-b4ad-58c4dd553139" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/StudentService_Chan.java" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/out/production/studentdata/TestClass.class" afterPath="" />
       <change beforePath="$PROJECT_DIR$/src/SinglyLinkedList_Chan.java" afterPath="$PROJECT_DIR$/src/SinglyLinkedList_Chan.java" />
       <change beforePath="$PROJECT_DIR$/src/StudentData_Chan.java" afterPath="$PROJECT_DIR$/src/StudentData_Chan.java" />
       <change beforePath="$PROJECT_DIR$/src/StudentGradeData.java" afterPath="$PROJECT_DIR$/src/StudentGradeData.java" />
-      <change beforePath="$PROJECT_DIR$/src/TestClass.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/StudentService_Chan.java" afterPath="$PROJECT_DIR$/src/StudentService_Chan.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -28,8 +25,8 @@
               <file leaf-file-name="studentInformation.csv" pinned="false" current-in-tab="false">
                 <entry file="file://$PROJECT_DIR$/studentInformation.csv">
                   <provider selected="true" editor-type-id="text-editor">
-                    <state relative-caret-position="0">
-                      <caret line="0" column="14" lean-forward="true" selection-start-line="0" selection-start-column="14" selection-end-line="0" selection-end-column="14" />
+                    <state relative-caret-position="30">
+                      <caret line="2" column="89" lean-forward="false" selection-start-line="2" selection-start-column="89" selection-end-line="2" selection-end-column="89" />
                       <folding />
                     </state>
                   </provider>
@@ -38,15 +35,35 @@
               <file leaf-file-name="StudentService_Chan.java" pinned="false" current-in-tab="true">
                 <entry file="file://$PROJECT_DIR$/src/StudentService_Chan.java">
                   <provider selected="true" editor-type-id="text-editor">
-                    <state relative-caret-position="439">
-                      <caret line="124" column="57" lean-forward="true" selection-start-line="124" selection-start-column="57" selection-end-line="124" selection-end-column="57" />
+                    <state relative-caret-position="205">
+                      <caret line="181" column="62" lean-forward="true" selection-start-line="181" selection-start-column="62" selection-end-line="181" selection-end-column="62" />
                       <folding>
                         <element signature="imports" expanded="true" />
                         <element signature="method#ClearScreen#0;class#StudentService_Chan#0" expanded="false" />
                         <element signature="method#readFile#0;class#StudentService_Chan#0" expanded="false" />
-                        <element signature="e#326#346#0" expanded="false" />
                         <element signature="method#MainMenu#0;class#StudentService_Chan#0" expanded="false" />
+                        <element signature="method#PrintResult#0;class#StudentService_Chan#0" expanded="false" />
                         <element signature="method#insertStudent#0;class#StudentService_Chan#0" expanded="false" />
+                      </folding>
+                    </state>
+                  </provider>
+                </entry>
+              </file>
+              <file leaf-file-name="SinglyLinkedList_Chan.java" pinned="false" current-in-tab="false">
+                <entry file="file://$PROJECT_DIR$/src/SinglyLinkedList_Chan.java">
+                  <provider selected="true" editor-type-id="text-editor">
+                    <state relative-caret-position="105">
+                      <caret line="12" column="25" lean-forward="true" selection-start-line="12" selection-start-column="25" selection-end-line="12" selection-end-column="25" />
+                      <folding>
+                        <element signature="method#SinglyLinkedList_Chan#0;class#SinglyLinkedList_Chan#0" expanded="false" />
+                        <element signature="e#2463#2464#0" expanded="true" />
+                        <element signature="e#2563#2564#0" expanded="true" />
+                        <element signature="e#2758#2759#0" expanded="true" />
+                        <element signature="e#2788#2789#0" expanded="true" />
+                        <element signature="e#2817#2818#0" expanded="true" />
+                        <element signature="e#2847#2848#0" expanded="true" />
+                        <element signature="e#3149#3150#0" expanded="true" />
+                        <element signature="e#3201#3202#0" expanded="true" />
                       </folding>
                     </state>
                   </provider>
@@ -59,30 +76,16 @@
               <file leaf-file-name="StudentData_Chan.java" pinned="false" current-in-tab="true">
                 <entry file="file://$PROJECT_DIR$/src/StudentData_Chan.java">
                   <provider selected="true" editor-type-id="text-editor">
-                    <state relative-caret-position="452">
-                      <caret line="94" column="23" lean-forward="true" selection-start-line="94" selection-start-column="23" selection-end-line="94" selection-end-column="23" />
+                    <state relative-caret-position="405">
+                      <caret line="99" column="1" lean-forward="true" selection-start-line="99" selection-start-column="1" selection-end-line="99" selection-end-column="1" />
                       <folding>
+                        <element signature="method#StudentData_Chan#0;class#StudentData_Chan#0" expanded="false" />
                         <element signature="method#StudentData_Chan#1;class#StudentData_Chan#0" expanded="false" />
-                        <element signature="e#1112#1113#0" expanded="true" />
-                        <element signature="e#1140#1141#0" expanded="true" />
-                        <element signature="e#1181#1182#0" expanded="true" />
-                        <element signature="e#1215#1216#0" expanded="true" />
-                        <element signature="e#1256#1257#0" expanded="true" />
-                        <element signature="e#1290#1291#0" expanded="true" />
-                        <element signature="e#1335#1336#0" expanded="true" />
-                        <element signature="e#1373#1374#0" expanded="true" />
-                        <element signature="e#1412#1413#0" expanded="true" />
-                        <element signature="e#1444#1445#0" expanded="true" />
-                        <element signature="e#1489#1490#0" expanded="true" />
-                        <element signature="e#1527#1528#0" expanded="true" />
-                        <element signature="e#1572#1573#0" expanded="true" />
-                        <element signature="e#1610#1611#0" expanded="true" />
-                        <element signature="e#1666#1667#0" expanded="true" />
-                        <element signature="e#1707#1708#0" expanded="true" />
-                        <element signature="e#1762#1763#0" expanded="true" />
-                        <element signature="e#1812#1813#0" expanded="true" />
+                        <element signature="method#deepCopy#0;class#StudentData_Chan#0" expanded="false" />
                         <element signature="method#toString#0;class#StudentData_Chan#0" expanded="false" />
+                        <element signature="method#transctriptPrint#0;class#StudentData_Chan#0" expanded="false" />
                         <element signature="method#fileStringMain#0;class#StudentData_Chan#0" expanded="false" />
+                        <element signature="method#fileStringGrade#0;class#StudentData_Chan#0" expanded="false" />
                       </folding>
                     </state>
                   </provider>
@@ -99,12 +102,13 @@
               <file leaf-file-name="StudentGradeData.java" pinned="false" current-in-tab="true">
                 <entry file="file://$PROJECT_DIR$/src/StudentGradeData.java">
                   <provider selected="true" editor-type-id="text-editor">
-                    <state relative-caret-position="225">
-                      <caret line="35" column="1" lean-forward="true" selection-start-line="35" selection-start-column="1" selection-end-line="35" selection-end-column="1" />
+                    <state relative-caret-position="15">
+                      <caret line="1" column="32" lean-forward="false" selection-start-line="1" selection-start-column="32" selection-end-line="1" selection-end-column="32" />
                       <folding>
                         <element signature="method#StudentGradeData#0;class#StudentGradeData#0" expanded="false" />
                         <element signature="method#StudentGradeData#1;class#StudentGradeData#0" expanded="false" />
                         <element signature="method#deepCopy#0;class#StudentGradeData#0" expanded="false" />
+                        <element signature="method#toString#0;class#StudentGradeData#0" expanded="false" />
                       </folding>
                     </state>
                   </provider>
@@ -113,8 +117,8 @@
               <file leaf-file-name="studentGrade.csv" pinned="false" current-in-tab="false">
                 <entry file="file://$PROJECT_DIR$/studentGrade.csv">
                   <provider selected="true" editor-type-id="text-editor">
-                    <state relative-caret-position="45">
-                      <caret line="3" column="116" lean-forward="true" selection-start-line="3" selection-start-column="116" selection-end-line="3" selection-end-column="116" />
+                    <state relative-caret-position="15">
+                      <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="7" />
                       <folding />
                     </state>
                   </provider>
@@ -127,9 +131,17 @@
               <file leaf-file-name="LQHashed_Chan.java" pinned="false" current-in-tab="true">
                 <entry file="file://$PROJECT_DIR$/src/LQHashed_Chan.java">
                   <provider selected="true" editor-type-id="text-editor">
-                    <state relative-caret-position="83">
-                      <caret line="74" column="0" lean-forward="false" selection-start-line="74" selection-start-column="0" selection-end-line="74" selection-end-column="0" />
-                      <folding />
+                    <state relative-caret-position="345">
+                      <caret line="164" column="0" lean-forward="true" selection-start-line="164" selection-start-column="0" selection-end-line="164" selection-end-column="0" />
+                      <folding>
+                        <element signature="method#LQHashed_Chan#0;class#LQHashed_Chan#0" expanded="false" />
+                        <element signature="method#insert#0;class#LQHashed_Chan#0" expanded="false" />
+                        <element signature="method#fetch#0;class#LQHashed_Chan#0" expanded="false" />
+                        <element signature="method#delete#0;class#LQHashed_Chan#0" expanded="false" />
+                        <element signature="method#update#0;class#LQHashed_Chan#0" expanded="false" />
+                        <element signature="method#fourKPlus3#0;class#LQHashed_Chan#0" expanded="false" />
+                        <element signature="method#stringToInt#0;class#LQHashed_Chan#0" expanded="false" />
+                      </folding>
                     </state>
                   </provider>
                 </entry>
@@ -160,10 +172,13 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/README.md" />
-        <option value="$PROJECT_DIR$/src/SinglyLinkedList_Chan.java" />
-        <option value="$PROJECT_DIR$/src/StudentGradeData.java" />
-        <option value="$PROJECT_DIR$/src/StudentData_Chan.java" />
         <option value="$PROJECT_DIR$/src/TestClass.java" />
+        <option value="$PROJECT_DIR$/src/LQHashed_Chan.java" />
+        <option value="$PROJECT_DIR$/src/StudentGradeData.java" />
+        <option value="$PROJECT_DIR$/src/SinglyLinkedListIterator_Chan.java" />
+        <option value="$PROJECT_DIR$/src/SinglyLinkedList_Chan.java" />
+        <option value="$PROJECT_DIR$/studentInformation.csv" />
+        <option value="$PROJECT_DIR$/src/StudentData_Chan.java" />
         <option value="$PROJECT_DIR$/src/StudentService_Chan.java" />
       </list>
     </option>
@@ -361,6 +376,14 @@
       <option name="presentableId" value="Default" />
       <updated>1521614216296</updated>
     </task>
+    <task id="LOCAL-00001" summary="insert case down, fetch case down, read the file and pull out info succeed (but the student with ID 1212121 cannot be fetched - fix bug needed)">
+      <created>1523774478230</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1523774478231</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -424,17 +447,13 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="insert case down, fetch case down, read the file and pull out info succeed (but the student with ID 1212121 cannot be fetched - fix bug needed)" />
+    <option name="LAST_COMMIT_MESSAGE" value="insert case down, fetch case down, read the file and pull out info succeed (but the student with ID 1212121 cannot be fetched - fix bug needed)" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/StudentGradeData.java</url>
-          <line>32</line>
-          <properties />
-          <option name="timeStamp" value="23" />
-        </line-breakpoint>
-      </breakpoints>
-      <option name="time" value="27" />
+      <option name="time" value="35" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -455,6 +474,7 @@
             <element signature="method#StudentGradeData#0;class#StudentGradeData#0" expanded="false" />
             <element signature="method#StudentGradeData#1;class#StudentGradeData#0" expanded="false" />
             <element signature="method#deepCopy#0;class#StudentGradeData#0" expanded="false" />
+            <element signature="method#toString#0;class#StudentGradeData#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -464,27 +484,13 @@
         <state relative-caret-position="195">
           <caret line="14" column="5" lean-forward="false" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
           <folding>
+            <element signature="method#StudentData_Chan#0;class#StudentData_Chan#0" expanded="false" />
             <element signature="method#StudentData_Chan#1;class#StudentData_Chan#0" expanded="false" />
-            <element signature="e#1112#1113#0" expanded="true" />
-            <element signature="e#1140#1141#0" expanded="true" />
-            <element signature="e#1181#1182#0" expanded="true" />
-            <element signature="e#1215#1216#0" expanded="true" />
-            <element signature="e#1256#1257#0" expanded="true" />
-            <element signature="e#1290#1291#0" expanded="true" />
-            <element signature="e#1335#1336#0" expanded="true" />
-            <element signature="e#1373#1374#0" expanded="true" />
-            <element signature="e#1412#1413#0" expanded="true" />
-            <element signature="e#1444#1445#0" expanded="true" />
-            <element signature="e#1489#1490#0" expanded="true" />
-            <element signature="e#1527#1528#0" expanded="true" />
-            <element signature="e#1572#1573#0" expanded="true" />
-            <element signature="e#1610#1611#0" expanded="true" />
-            <element signature="e#1666#1667#0" expanded="true" />
-            <element signature="e#1707#1708#0" expanded="true" />
-            <element signature="e#1762#1763#0" expanded="true" />
-            <element signature="e#1812#1813#0" expanded="true" />
+            <element signature="method#deepCopy#0;class#StudentData_Chan#0" expanded="false" />
             <element signature="method#toString#0;class#StudentData_Chan#0" expanded="false" />
+            <element signature="method#transctriptPrint#0;class#StudentData_Chan#0" expanded="false" />
             <element signature="method#fileStringMain#0;class#StudentData_Chan#0" expanded="false" />
+            <element signature="method#fileStringGrade#0;class#StudentData_Chan#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -525,27 +531,13 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
+            <element signature="method#StudentData_Chan#0;class#StudentData_Chan#0" expanded="false" />
             <element signature="method#StudentData_Chan#1;class#StudentData_Chan#0" expanded="false" />
-            <element signature="e#1112#1113#0" expanded="true" />
-            <element signature="e#1140#1141#0" expanded="true" />
-            <element signature="e#1181#1182#0" expanded="true" />
-            <element signature="e#1215#1216#0" expanded="true" />
-            <element signature="e#1256#1257#0" expanded="true" />
-            <element signature="e#1290#1291#0" expanded="true" />
-            <element signature="e#1335#1336#0" expanded="true" />
-            <element signature="e#1373#1374#0" expanded="true" />
-            <element signature="e#1412#1413#0" expanded="true" />
-            <element signature="e#1444#1445#0" expanded="true" />
-            <element signature="e#1489#1490#0" expanded="true" />
-            <element signature="e#1527#1528#0" expanded="true" />
-            <element signature="e#1572#1573#0" expanded="true" />
-            <element signature="e#1610#1611#0" expanded="true" />
-            <element signature="e#1666#1667#0" expanded="true" />
-            <element signature="e#1707#1708#0" expanded="true" />
-            <element signature="e#1762#1763#0" expanded="true" />
-            <element signature="e#1812#1813#0" expanded="true" />
+            <element signature="method#deepCopy#0;class#StudentData_Chan#0" expanded="false" />
             <element signature="method#toString#0;class#StudentData_Chan#0" expanded="false" />
+            <element signature="method#transctriptPrint#0;class#StudentData_Chan#0" expanded="false" />
             <element signature="method#fileStringMain#0;class#StudentData_Chan#0" expanded="false" />
+            <element signature="method#fileStringGrade#0;class#StudentData_Chan#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -581,42 +573,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/SinglyLinkedList_Chan.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/LQHashed_Chan.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="83">
-          <caret line="74" column="0" lean-forward="false" selection-start-line="74" selection-start-column="0" selection-end-line="74" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/studentGrade.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="116" lean-forward="true" selection-start-line="3" selection-start-column="116" selection-end-line="3" selection-end-column="116" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/StudentGradeData.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="35" column="1" lean-forward="true" selection-start-line="35" selection-start-column="1" selection-end-line="35" selection-end-column="1" />
-          <folding>
-            <element signature="method#StudentGradeData#0;class#StudentGradeData#0" expanded="false" />
-            <element signature="method#StudentGradeData#1;class#StudentGradeData#0" expanded="false" />
-            <element signature="method#deepCopy#0;class#StudentGradeData#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/TestClass.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -625,54 +581,111 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/StudentData_Chan.java">
+    <entry file="file://$PROJECT_DIR$/src/SinglyLinkedListIterator_Chan.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="452">
-          <caret line="94" column="23" lean-forward="true" selection-start-line="94" selection-start-column="23" selection-end-line="94" selection-end-column="23" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/SinglyLinkedList_Chan.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="12" column="25" lean-forward="true" selection-start-line="12" selection-start-column="25" selection-end-line="12" selection-end-column="25" />
           <folding>
-            <element signature="method#StudentData_Chan#1;class#StudentData_Chan#0" expanded="false" />
-            <element signature="e#1112#1113#0" expanded="true" />
-            <element signature="e#1140#1141#0" expanded="true" />
-            <element signature="e#1181#1182#0" expanded="true" />
-            <element signature="e#1215#1216#0" expanded="true" />
-            <element signature="e#1256#1257#0" expanded="true" />
-            <element signature="e#1290#1291#0" expanded="true" />
-            <element signature="e#1335#1336#0" expanded="true" />
-            <element signature="e#1373#1374#0" expanded="true" />
-            <element signature="e#1412#1413#0" expanded="true" />
-            <element signature="e#1444#1445#0" expanded="true" />
-            <element signature="e#1489#1490#0" expanded="true" />
-            <element signature="e#1527#1528#0" expanded="true" />
-            <element signature="e#1572#1573#0" expanded="true" />
-            <element signature="e#1610#1611#0" expanded="true" />
-            <element signature="e#1666#1667#0" expanded="true" />
-            <element signature="e#1707#1708#0" expanded="true" />
-            <element signature="e#1762#1763#0" expanded="true" />
-            <element signature="e#1812#1813#0" expanded="true" />
-            <element signature="method#toString#0;class#StudentData_Chan#0" expanded="false" />
-            <element signature="method#fileStringMain#0;class#StudentData_Chan#0" expanded="false" />
+            <element signature="method#SinglyLinkedList_Chan#0;class#SinglyLinkedList_Chan#0" expanded="false" />
+            <element signature="e#2463#2464#0" expanded="true" />
+            <element signature="e#2563#2564#0" expanded="true" />
+            <element signature="e#2758#2759#0" expanded="true" />
+            <element signature="e#2788#2789#0" expanded="true" />
+            <element signature="e#2817#2818#0" expanded="true" />
+            <element signature="e#2847#2848#0" expanded="true" />
+            <element signature="e#3149#3150#0" expanded="true" />
+            <element signature="e#3201#3202#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/studentInformation.csv">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="14" lean-forward="true" selection-start-line="0" selection-start-column="14" selection-end-line="0" selection-end-column="14" />
+        <state relative-caret-position="30">
+          <caret line="2" column="89" lean-forward="false" selection-start-line="2" selection-start-column="89" selection-end-line="2" selection-end-column="89" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/studentGrade.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-9.0.4.jdk/Contents/Home/lib/src.zip!/java.base/java/lang/StringBuilder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-372">
+          <caret line="258" column="25" lean-forward="false" selection-start-line="258" selection-start-column="25" selection-end-line="258" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/StudentGradeData.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="32" lean-forward="false" selection-start-line="1" selection-start-column="32" selection-end-line="1" selection-end-column="32" />
+          <folding>
+            <element signature="method#StudentGradeData#0;class#StudentGradeData#0" expanded="false" />
+            <element signature="method#StudentGradeData#1;class#StudentGradeData#0" expanded="false" />
+            <element signature="method#deepCopy#0;class#StudentGradeData#0" expanded="false" />
+            <element signature="method#toString#0;class#StudentGradeData#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/LQHashed_Chan.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="164" column="0" lean-forward="true" selection-start-line="164" selection-start-column="0" selection-end-line="164" selection-end-column="0" />
+          <folding>
+            <element signature="method#LQHashed_Chan#0;class#LQHashed_Chan#0" expanded="false" />
+            <element signature="method#insert#0;class#LQHashed_Chan#0" expanded="false" />
+            <element signature="method#fetch#0;class#LQHashed_Chan#0" expanded="false" />
+            <element signature="method#delete#0;class#LQHashed_Chan#0" expanded="false" />
+            <element signature="method#update#0;class#LQHashed_Chan#0" expanded="false" />
+            <element signature="method#fourKPlus3#0;class#LQHashed_Chan#0" expanded="false" />
+            <element signature="method#stringToInt#0;class#LQHashed_Chan#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/StudentData_Chan.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="99" column="1" lean-forward="true" selection-start-line="99" selection-start-column="1" selection-end-line="99" selection-end-column="1" />
+          <folding>
+            <element signature="method#StudentData_Chan#0;class#StudentData_Chan#0" expanded="false" />
+            <element signature="method#StudentData_Chan#1;class#StudentData_Chan#0" expanded="false" />
+            <element signature="method#deepCopy#0;class#StudentData_Chan#0" expanded="false" />
+            <element signature="method#toString#0;class#StudentData_Chan#0" expanded="false" />
+            <element signature="method#transctriptPrint#0;class#StudentData_Chan#0" expanded="false" />
+            <element signature="method#fileStringMain#0;class#StudentData_Chan#0" expanded="false" />
+            <element signature="method#fileStringGrade#0;class#StudentData_Chan#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/StudentService_Chan.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="439">
-          <caret line="124" column="57" lean-forward="true" selection-start-line="124" selection-start-column="57" selection-end-line="124" selection-end-column="57" />
+        <state relative-caret-position="205">
+          <caret line="181" column="62" lean-forward="true" selection-start-line="181" selection-start-column="62" selection-end-line="181" selection-end-column="62" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="method#ClearScreen#0;class#StudentService_Chan#0" expanded="false" />
             <element signature="method#readFile#0;class#StudentService_Chan#0" expanded="false" />
-            <element signature="e#326#346#0" expanded="false" />
             <element signature="method#MainMenu#0;class#StudentService_Chan#0" expanded="false" />
+            <element signature="method#PrintResult#0;class#StudentService_Chan#0" expanded="false" />
             <element signature="method#insertStudent#0;class#StudentService_Chan#0" expanded="false" />
           </folding>
         </state>
