@@ -1,5 +1,6 @@
 import java.io.BufferedReader;
 import java.io.FileReader;
+import java.io.FileWriter;
 import java.util.Scanner;
 
 public class StudentService_Chan {
@@ -48,6 +49,8 @@ public class StudentService_Chan {
                 }
                 ourhash.insert(studentdata);
             }
+            f1.close();
+            f2.close();
         }
         catch (Exception e){//catch file not found
             System.out.println("File not found.");
@@ -98,6 +101,20 @@ public class StudentService_Chan {
         str = keyboard.nextLine();
         studentdata.setAddress(str);
         return studentdata;
+    }
+    public static void writeFile(LQHashed_Chan data,String file1, String file2){
+        try{
+            FileWriter fwriter1 = new FileWriter(file1,false);
+            FileWriter fwriter2 = new FileWriter(file2,false);
+            fwriter2.write(data.gradeFileString());
+            fwriter1.write(data.fileString());
+            fwriter1.close();
+            fwriter2.close();
+            PrintResult("File updated successfully :)");
+        }
+        catch (Exception e){
+            System.out.println("File update failed.");
+        }
     }
     public static void main(String[] args) throws InterruptedException{
         String file1 = "/Users/maxxlt/Google Drive/SP2018/COSC-2436/studentdata/studentInformation.csv";//directory of the main
@@ -171,7 +188,9 @@ public class StudentService_Chan {
                         PrintResult("ID cannot be found.");
                     break;
                 case 6:
-                    //NEEDS EDIT
+                    System.out.print("Class Name: ");
+                    input = keyboard.nextLine();
+                    ourhash.showClass(input);
                     break;
                 case 7:
                     System.out.print("Student's ID: ");
@@ -188,7 +207,10 @@ public class StudentService_Chan {
                     ourhash.showAll();
                     break;
                 case 9:
-                    //NEEDS EDIT
+                    writeFile(ourhash,file1,file2);
+                    break;
+                default:
+                    System.out.println("Wrong Input");
                     break;
             }
         } while (choice != 9);

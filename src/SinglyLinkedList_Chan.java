@@ -56,8 +56,15 @@ public class SinglyLinkedList_Chan {
             p = p.next;//jump to the next node
         }
     }
-    public boolean isEmpty(){
-        return h.next == null;//checking if we have anything in next, if true - it's empty :)
+    public String fileGrade() {
+        String str = "";
+        Node p = h.next;//set p to the last node added
+        while (p != null) {//while not the end of the LinkedList
+            str+=","+ p.l.getClassc()+","+p.l.getGrade();
+            p = p.next;//jump to the next node
+        }
+        str+="\n";
+        return str;
     }
     public class Node{
         private StudentGradeData l;

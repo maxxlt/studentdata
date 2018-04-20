@@ -2,7 +2,7 @@ import java.text.SimpleDateFormat;
 import java.util.Date;
 
 public class StudentData_Chan {
-    public String id, fname, lname, snumber, bday, pnumber, address;
+    private String id, fname, lname, snumber, bday, pnumber, address;
     public SinglyLinkedList_Chan gradelist = new SinglyLinkedList_Chan();
     public StudentData_Chan(String id,String lname,String fname,String snumber,String bday,String pnumber,String address, SinglyLinkedList_Chan gradelist){
         this.id = id;
@@ -86,15 +86,7 @@ public class StudentData_Chan {
         return str;
     }
     public String fileStringMain(){
-        String str = getId()+","+getLname()+","+getFname()+","+getSnumber()+","+getBday()+","+getPnumber()+","+getAddress();
-        return str;
-    }
-    public String fileStringGrade(){
-        String str ="";
-        while(!gradelist.isEmpty()){
-        StudentGradeData fetchData = gradelist.fetch(getId());
-        str += fetchData.getClassc()+","+fetchData.getGrade();
-        }
+        String str = getId()+","+getLname()+","+getFname()+","+getSnumber()+","+getBday()+","+getPnumber()+","+getAddress()+"\n";
         return str;
     }
 }

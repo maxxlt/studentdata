@@ -5,7 +5,6 @@ public class LQHashed_Chan {
     double loadingFactor = 0.75;
     StudentData_Chan deleted;
     private StudentData_Chan[] data;
-
     public LQHashed_Chan(int length){
         int pct = (int)((1.0/loadingFactor - 1)*100.0);
         N = fourKPlus3(length,pct);
@@ -14,7 +13,6 @@ public class LQHashed_Chan {
         for(int i = 0; i < N; i++)
             data[i] = null;
     }
-
     public boolean insert(StudentData_Chan newListing){
         boolean noError;
         boolean hit = false;
@@ -46,7 +44,6 @@ public class LQHashed_Chan {
         else
             return noError = false;
     }
-
     public StudentData_Chan fetch(String targetKey){
         boolean noError;
         boolean hit = false;
@@ -113,6 +110,35 @@ public class LQHashed_Chan {
         for(int i = 0; i < N; i++)
             if (data[i] != null && data[i] != deleted)
                 System.out.println(data[i].toString());
+    }
+    public void showClass(String targetkey){
+        StudentGradeData grade;
+        for(int i = 0; i < N; i++)
+            if (data[i] != null && data[i] != deleted) {
+                grade = data[i].gradelist.fetch(targetkey);
+                if (grade != null){
+                    String str = String.format("%-12s %40s", data[i].getId(), data[i].getFname() +" "+data[i].getLname()+ "\n");
+                    System.out.println(str);
+                }
+            }
+    }
+    public String fileString(){
+        String str = "";
+        for(int i = 0; i < N; i++) {
+            if (data[i] != null && data[i] != deleted) {
+                str += data[i].fileStringMain();
+            }
+        }
+        return str;
+    }
+    public String gradeFileString(){
+        String str = "";
+        for(int i = 0; i < N; i++) {
+            if (data[i] != null && data[i] != deleted) {
+                str += data[i].getId()+data[i].gradelist.fileGrade();
+            }
+        }
+        return str;
     }
     public static int fourKPlus3(int n, int pct){//function to calculate prime number
         boolean fkp3 = false;
